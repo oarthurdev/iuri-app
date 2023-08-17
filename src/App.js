@@ -87,6 +87,7 @@ const App = () => {
             onDragOver={handleDragOver}
             onDrop={(e) => handleDrop(e, index)}
           >
+           <span class="badge bg-secondary" style={{float: 'left'}}>{index + 1}</span>
             {name}
             <button
               className="margin-left btn btn-sm btn-secondary ml-2 my-1"
